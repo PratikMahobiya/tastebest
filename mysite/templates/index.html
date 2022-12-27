@@ -41,13 +41,13 @@
                             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about/">About Us</a>
+                            <a class="nav-link" href="{% url 'about' %}">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="menu/">Menu</a>
+                            <a class="nav-link" href="{% url 'menu' %}">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact/">Contact Us</a>
+                            <a class="nav-link" href="{% url 'contact' %}">Contact Us</a>
                         </li>
                         <!-- search button -->
                         <!-- <div class="search-right">
@@ -93,7 +93,7 @@
                             Healthy <span class="type-js"><span class="text-js">Fresh Meals!</span></span></h3>
                         <p class="banner-text text-white">Open Everyday - <span>7 Am to 10 Pm</span>
                         </p>
-                        <a class="btn btn-style-white btn-style-border mt-5" href="about/">Learn More</a>
+                        <a class="btn btn-style-white btn-style-border mt-5" href="{% url 'about' %}">Learn More</a>
                     </div>
                 </div>
                 <div class="col-md-6 banner-right">
@@ -102,7 +102,7 @@
                             <img src="{% static 'images/ban4.jpg' %}" class="img-responsive" alt="" />
                             <div class="img-ban-sec">
                                 <h5>Fast Foods</h5>
-                                <a href="menu/" class="btn p-0">More <i class="fa fa-angle-right ml-1"
+                                <a href="{% url 'menu' %}" class="btn p-0">More <i class="fa fa-angle-right ml-1"
                                         aria-hidden="true"></i></a>
                             </div>
                         </div>
@@ -110,7 +110,7 @@
                             <img src="{% static 'images/ban2.jpg' %}" class="img-responsive" alt="" />
                             <div class="img-ban-sec">
                                 <h5>Breakfasts</h5>
-                                <a href="menu/" class="btn p-0">More <i class="fa fa-angle-right ml-1"
+                                <a href="{% url 'menu' %}" class="btn p-0">More <i class="fa fa-angle-right ml-1"
                                         aria-hidden="true"></i></a>
                             </div>
                         </div>
@@ -190,7 +190,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="btn btn-style-white btn-style-border mt-5" href="about/">View More</a>
+                    <a class="btn btn-style-white btn-style-border mt-5" href="{% url 'about' %}">View More</a>
                 </div>
                 <div class="col-lg-6 recipe-right pl-5">
                     <img src="{% static 'images/image1.png' %}" alt="" class="img-fluid img-responsive" />
@@ -250,7 +250,7 @@
                     </p>
                     <p>But that you may see whence all this error is born, the pleasure and pain of those who accuse praisers, I will open the whole matter, and those very things which are from that discoverer of truth and as it were
                         I will explain what was said to the architect of a happy life.</p>
-                    <a href="about/" class="btn btn-style-white btn-style-primary mt-lg-5 mt-4">Learn More</a>
+                    <a href="{% url 'about' %}" class="btn btn-style-white btn-style-primary mt-lg-5 mt-4">Learn More</a>
                 </div>
                 <div class="col-md-5 mt-md-0 mt-5">
                     <div class="counter text-center">
@@ -287,74 +287,74 @@
                 </div>
                 <div class="row galler-top">
                     <div class="col-md-4 col-sm-6 protfolio-item hover14">
-                        <a href="menu/" data-lightbox="example-set" data-title="Branding Design">
+                        <a href="{% url 'menu' %}" data-lightbox="example-set" data-title="Branding Design">
                             <figure>
                                 <img src="{% static 'images/g1.jpg' %}" alt="product" class="img-fluid">
                                 <div class="p-4">
                                     <p>TasteBest</p>
-                                    <a href="menu/" class="mb-5 img-title">Noodles</a>
+                                    <a href="{% url 'menu' %}" class="mb-5 img-title">Noodles</a>
                                 </div>
                             </figure>
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-sm-0 mt-4">
-                        <a href="menu/" data-lightbox="example-set" data-title="Gradient Website Development">
+                        <a href="{% url 'menu' %}" data-lightbox="example-set" data-title="Gradient Website Development">
                             <figure>
                                 <img src="{% static 'images/g2.jpg' %}" alt="product" class="img-fluid">
                                 <div class="p-4">
                                     <p>TasteBest</p>
-                                    <a href="menu/" class="mb-5 img-title">Cakes</a>
+                                    <a href="{% url 'menu' %}" class="mb-5 img-title">Cakes</a>
                                 </div>
                             </figure>
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-md-0 mt-4">
-                        <a href="menu/" data-lightbox="example-set" data-title="Design and Development">
+                        <a href="{% url 'menu' %}" data-lightbox="example-set" data-title="Design and Development">
                             <figure>
                                 <img src="{% static 'images/g3.jpg' %}" alt="product" class="img-fluid">
                                 <div class="p-4">
                                     <p>TasteBest</p>
-                                    <a href="menu/" class="mb-5 img-title">Pizzas</a>
+                                    <a href="{% url 'menu' %}" class="mb-5 img-title">Pizzas</a>
                                 </div>
                             </figure>
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-4">
-                        <a href="menu/" data-lightbox="example-set" data-title="Magazine Content Writing">
+                        <a href="{% url 'menu' %}" data-lightbox="example-set" data-title="Magazine Content Writing">
                             <figure>
                                 <img src="{% static 'images/g4.jpg' %}" alt="product" class="img-fluid">
                                 <div class="p-4">
                                     <p>TasteBest</p>
-                                    <a href="menu/" class="mb-5 img-title">Drinks</a>
+                                    <a href="{% url 'menu' %}" class="mb-5 img-title">Drinks</a>
                                 </div>
                             </figure>
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-4">
-                        <a href="menu/" data-lightbox="example-set" data-title="Magazine Content Writing">
+                        <a href="{% url 'menu' %}" data-lightbox="example-set" data-title="Magazine Content Writing">
                             <figure>
                                 <img src="{% static 'images/g5.jpg' %}" alt="product" class="img-fluid">
                                 <div class="p-4">
                                     <p>TasteBest</p>
-                                    <a href="menu/" class="mb-5 img-title">Hamburgers</a>
+                                    <a href="{% url 'menu' %}" class="mb-5 img-title">Hamburgers</a>
                                 </div>
                             </figure>
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-4">
-                        <a href="menu/" data-lightbox="example-set" data-title="Magazine Content Writing">
+                        <a href="{% url 'menu' %}" data-lightbox="example-set" data-title="Magazine Content Writing">
                             <figure>
                                 <img src="{% static 'images/g6.jpg' %}" alt="product" class="img-fluid">
                                 <div class="p-4">
                                     <p>TasteBest</p>
-                                    <a href="menu/" class="mb-5 img-title">Meals</a>
+                                    <a href="{% url 'menu' %}" class="mb-5 img-title">Meals</a>
                                 </div>
                             </figure>
                         </a>
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="menu/" class="btn btn-style-white btn-style-primary mt-lg-5 mt-2">See Our Menu</a>
+                    <a href="{% url 'menu' %}" class="btn btn-style-white btn-style-primary mt-lg-5 mt-2">See Our Menu</a>
                 </div>
             </div>
         </div>
@@ -429,7 +429,7 @@
                                 <!-- <li><a href="#support"> Support</a></li>
                                 <li class="mx-lg-5 mx-md-4 mx-3"><a href="#privacy">Privacy Policy</a>
                                 </li> -->
-                                <li><a href="contact/">Contact Us</a></li>
+                                <li><a href="{% url 'contact' %}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -553,8 +553,7 @@
     <!-- //disable body scroll which navbar is in active -->
 
     <!--bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <!-- //bootstrap-->
     <!-- //Js scripts -->
 </body>
