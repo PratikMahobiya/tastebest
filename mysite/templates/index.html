@@ -1,9 +1,6 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
 <!doctype html>
 <html lang="en">
+{% load static %}
 
 <head>
     <!-- Required meta tags -->
@@ -15,7 +12,7 @@ Author URL: http://w3layouts.com
         rel="stylesheet">
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="{% static 'css/style-starter.css' %}">
 </head>
 
 <body>
@@ -102,7 +99,7 @@ Author URL: http://w3layouts.com
                 <div class="col-md-6 banner-right">
                     <div class="small-images">
                         <div class="ban-grid position-relative">
-                            <img src="assets/images/ban4.jpg" class="img-responsive" alt="" />
+                            <img src="{% static 'images/ban4.jpg' %}" class="img-responsive" alt="" />
                             <div class="img-ban-sec">
                                 <h5>Fast Foods</h5>
                                 <a href="menu.html" class="btn p-0">More <i class="fa fa-angle-right ml-1"
@@ -110,7 +107,7 @@ Author URL: http://w3layouts.com
                             </div>
                         </div>
                         <div class="ban-grid position-relative mt-4">
-                            <img src="assets/images/ban2.jpg" class="img-responsive" alt="" />
+                            <img src="{% static 'images/ban2.jpg' %}" class="img-responsive" alt="" />
                             <div class="img-ban-sec">
                                 <h5>Breakfasts</h5>
                                 <a href="menu.html" class="btn p-0">More <i class="fa fa-angle-right ml-1"
@@ -131,10 +128,10 @@ Author URL: http://w3layouts.com
                 <div class="col-lg-6 about-2-secs-right mb-lg-0 mb-5">
                     <div class="image-box inverse position-relative">
                         <div class="image-box__static">
-                            <img src="assets/images/about2.jpg" alt="" width="364" height="459">
+                            <img src="{% static 'images/about2.jpg' %}" alt="" width="364" height="459">
                         </div>
                         <div class="image-box__float">
-                            <img src="assets/images/about1.jpg" alt="" width="364" height="459">
+                            <img src="{% static 'images/about1.jpg' %}" alt="" width="364" height="459">
                         </div>
                     </div>
                 </div>
@@ -198,7 +195,7 @@ Author URL: http://w3layouts.com
                     <a class="btn btn-style-white btn-style-border mt-5" href="about.html">View More</a>
                 </div>
                 <div class="col-lg-6 recipe-right pl-5">
-                    <img src="assets/images/image1.png" alt="" class="img-fluid img-responsive" />
+                    <img src="{% static 'images/image1.png' %}" alt="" class="img-fluid img-responsive" />
                 </div>
             </div>
         </div>
@@ -222,7 +219,7 @@ Author URL: http://w3layouts.com
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-8 image-styling-sec mt-lg-0 mt-5">
-                    <img src="assets/images/image2.jpg" alt="" class="img-fluid">
+                    <img src="{% static 'images/image2.jpg' %}" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-4 col-md-6 mt-lg-0 mt-5 text-lg-right">
                     <div class="pl-lg-5">
@@ -296,7 +293,7 @@ Author URL: http://w3layouts.com
                     <div class="col-md-4 col-sm-6 protfolio-item hover14">
                         <a href="menu.html" data-lightbox="example-set" data-title="Branding Design">
                             <figure>
-                                <img src="assets/images/g1.jpg" alt="product" class="img-fluid">
+                                <img src="{% static 'images/g1.jpg' %}" alt="product" class="img-fluid">
                                 <div class="p-4">
                                     <p>Bistros</p>
                                     <a href="menu.html" class="mb-5 img-title">Noodles</a>
@@ -307,7 +304,7 @@ Author URL: http://w3layouts.com
                     <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-sm-0 mt-4">
                         <a href="menu.html" data-lightbox="example-set" data-title="Gradient Website Development">
                             <figure>
-                                <img src="assets/images/g2.jpg" alt="product" class="img-fluid">
+                                <img src="{% static 'images/g2.jpg' %}" alt="product" class="img-fluid">
                                 <div class="p-4">
                                     <p>Bistros</p>
                                     <a href="menu.html" class="mb-5 img-title">Cakes</a>
@@ -318,7 +315,7 @@ Author URL: http://w3layouts.com
                     <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-md-0 mt-4">
                         <a href="menu.html" data-lightbox="example-set" data-title="Design and Development">
                             <figure>
-                                <img src="assets/images/g3.jpg" alt="product" class="img-fluid">
+                                <img src="{% static 'images/g3.jpg' %}" alt="product" class="img-fluid">
                                 <div class="p-4">
                                     <p>Bistros</p>
                                     <a href="menu.html" class="mb-5 img-title">Pizzas</a>
@@ -329,7 +326,7 @@ Author URL: http://w3layouts.com
                     <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-4">
                         <a href="menu.html" data-lightbox="example-set" data-title="Magazine Content Writing">
                             <figure>
-                                <img src="assets/images/g4.jpg" alt="product" class="img-fluid">
+                                <img src="{% static 'images/g4.jpg' %}" alt="product" class="img-fluid">
                                 <div class="p-4">
                                     <p>Bistros</p>
                                     <a href="menu.html" class="mb-5 img-title">Drinks</a>
@@ -340,7 +337,7 @@ Author URL: http://w3layouts.com
                     <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-4">
                         <a href="menu.html" data-lightbox="example-set" data-title="Magazine Content Writing">
                             <figure>
-                                <img src="assets/images/g5.jpg" alt="product" class="img-fluid">
+                                <img src="{% static 'images/g5.jpg' %}" alt="product" class="img-fluid">
                                 <div class="p-4">
                                     <p>Bistros</p>
                                     <a href="menu.html" class="mb-5 img-title">Hamburgers</a>
@@ -351,7 +348,7 @@ Author URL: http://w3layouts.com
                     <div class="col-md-4 col-sm-6 protfolio-item hover14 mt-4">
                         <a href="menu.html" data-lightbox="example-set" data-title="Magazine Content Writing">
                             <figure>
-                                <img src="assets/images/g6.jpg" alt="product" class="img-fluid">
+                                <img src="{% static 'images/g6.jpg' %}" alt="product" class="img-fluid">
                                 <div class="p-4">
                                     <p>Bistros</p>
                                     <a href="menu.html" class="mb-5 img-title">Meals</a>
@@ -476,15 +473,15 @@ Author URL: http://w3layouts.com
     <!-- //move top -->
 
     <!-- common jquery plugin -->
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
     <!-- //common jquery plugin -->
 
     <!-- counter for stats -->
-    <script src="assets/js/counter.js"></script>
+    <script src="{% static 'js/counter.js' %}"></script>
     <!-- //counter for stats -->
 
     <!-- theme switch js (light and dark)-->
-    <script src="assets/js/theme-change.js"></script>
+    <script src="{% static 'js/theme-change.js' %}"></script>
     <script>
         function autoType(elementClass, typingSpeed) {
             var thhis = $(elementClass);
@@ -562,7 +559,8 @@ Author URL: http://w3layouts.com
     <!-- //disable body scroll which navbar is in active -->
 
     <!--bootstrap-->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <!-- //bootstrap-->
     <!-- //Js scripts -->
 </body>
