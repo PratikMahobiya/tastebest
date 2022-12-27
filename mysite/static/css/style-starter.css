@@ -14029,7 +14029,7 @@ a.text-dark:focus {
 
 :root {
   --theme-color: #e40000;
-  --primary-color: #fb811e;
+  --primary-color: #6f42c1;
   --primary-light: #fcf1e7;
   --primary-dark: #ffc945;
   --secondary-color: #009f4d;
@@ -14053,12 +14053,12 @@ a.text-dark:focus {
 
 [data-theme="dark"] {
   --theme-color: #e40000;
-  --primary-color: #fb811e;
+  --primary-color: #6f42c1;
   --primary-light: #ffc945;
   --secondary-color: #009f4d;
   --primary-dark: #00070c;
   --font-color: #b7b7b7;
-  --bg-color: #222222;
+  --bg-color: #000000;
   --heading-color: #fdfffc;
   --footer-color: #0e0e0e;
   --footer-cpy-color: #060606;
